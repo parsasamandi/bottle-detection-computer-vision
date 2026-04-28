@@ -9,13 +9,9 @@ env/
 *.onnx
 *.engine
 
-# Dataset archives and raw images
+# Dataset archives and directories (regenerable)
 coco128.zip
 coco128/
-*.jpg
-*.jpeg
-*.png
-!output_annotated.jpg
 
 # Python cache
 __pycache__/
@@ -32,3 +28,4 @@ __pycache__/
 
 # Runs/output from Ultralytics
 runs/
+

@@ -31,7 +31,7 @@ BOTTLE_CLASS_ID = find_class_id(model, "bottle")
 print(f"Bottle class ID in this model: {BOTTLE_CLASS_ID}")
 
 # ── 3. Run detection ──────────────────────────────────────────────────────────
-IMAGE_PATH = Path("coco128/images/train2017/000000000142.jpg")  # COCO128: 2 bottles @ 87% conf
+IMAGE_PATH = Path("test_bottle_image.jpg")  # Test image: 2 bottles @ 87% & 82% conf
 
 if not IMAGE_PATH.exists():
     raise FileNotFoundError(f"Test image not found: {IMAGE_PATH}")
