@@ -1,0 +1,34 @@
+# Python virtual environments
+.venv/
+.venv312/
+venv/
+env/
+
+# Model weights (large binary files)
+*.pt
+*.onnx
+*.engine
+
+# Dataset archives and raw images
+coco128.zip
+coco128/
+*.jpg
+*.jpeg
+*.png
+!output_annotated.jpg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Runs/output from Ultralytics
+runs/
